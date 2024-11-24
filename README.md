@@ -12,8 +12,6 @@ This guide is Windows-oriented. If you're using Linux, you probably already know
 
 ### Requirements
 
-~~Most important requirement: a brain.~~
-
 - **uv (v0.4.22+)**  
   Install **uv** by running the following PowerShell command:
   ```bash
