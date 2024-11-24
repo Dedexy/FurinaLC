@@ -4,11 +4,11 @@
 
 As stated in the license, there is no liability. This project obviously breaks Limbus Company's terms of service, so if anything happens, just remember that you have been warned.
 
-Be sure to check out the [Frequently Asked Questions](https://github.com/LEAGUE-OF-NINE/FurinaLC/blob/main/FAQ.md).
+Be sure to check out the [Frequently Asked Questions](https://github.com/Dedexy/FurinaLC/blob/main/FAQ.md).
 
 ## Getting Started
 
-This guide is Windows-oriented. If you're using Linux, you probably already know how to set things up. (I use arch btw.)
+This guide is Windows-oriented.
 
 ### Requirements
 
