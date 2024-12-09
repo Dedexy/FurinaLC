@@ -1,33 +1,44 @@
 from fastapi import FastAPI
-from . import (
-    CheckSeasonLog,
-    FetchLatestSynchronousData,
-    LoadUserDataAll,
-    UpdateFormation,
-    ChangeCurrentAnnouncer,
-    SetPersonalityGacksungIllust,
+from .battle import (
+    EnterExpDungeon,
+    EnterRailwayDungeon,
+    EnterStageBattle,
+    ExitExpDungeon,
+    ExitStageBattle,
+)
+from .coupon import (
     GetUserCouponState,
     UseCoupon,
-    GetUserBanners,
-    GetProfileTicketDecoDatas,
-    UpdateUserProfile,
-    UpdateProfileTicketDeco,
-    UpdateLobbyCg,
-    GetFriendsData,
+)
+from .gacha import (
+    ClaimClosedGachaRewards,
+    PlayGacha,
+)
+from .logs import (
+    CheckSeasonLog,
+    FetchLatestSynchronousData,
+    GetAbnormalityLogData,
+    GetDailyDungeonInfo,
+    GetDanteNoteState,
     GetDungeonSaveInfoAll,
     GetRailwayDungeonNodeAndLogAll,
-    EnterRailwayDungeon,
-    ClaimClosedGachaRewards,
-    EnterStageBattle,
-    ExitStageBattle,
-    GetDailyDungeonInfo,
-    EnterExpDungeon,
-    ExitExpDungeon,
-    GetAbnormalityLogData,
-    GetTheaterInfo,
+)
+from .theater import (
     CompleteTheaterStory,
-    GetDanteNoteState,
-    PlayGacha,
+    ExitStory,
+    GetTheaterInfo,
+)
+from .user import (
+    ChangeCurrentAnnouncer,
+    GetFriendsData,
+    GetProfileTicketDecoDatas,
+    GetUserBanners,
+    LoadUserDataAll,
+    SetPersonalityGacksungIllust,
+    UpdateFormation,
+    UpdateLobbyCg,
+    UpdateProfileTicketDeco,
+    UpdateUserProfile,
 )
 
 
@@ -62,3 +73,4 @@ def add_api_handler(app: FastAPI):
     app.post("/api/CompleteTheaterStory")(CompleteTheaterStory.handle)
     app.post("/api/GetDanteNoteState")(GetDanteNoteState.handle)
     app.post("/api/PlayGacha")(PlayGacha.handle)
+    app.post("/api/ExitStory")(ExitStory.handle)

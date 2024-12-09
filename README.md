@@ -1,3 +1,10 @@
+
+
+# WARNING
+YOU WILL 99.99% GET BANNED FOR USING FURINALC, PROJECT MOON HAS ADDED A DETECTION FOR PRIVATE SERVER PLAYERS, IT IS RECOMMENDED THAT YOU WAIT FOR THE NEWEST VERSION OF THE ALTERNATIVE & BETTER PRIVATE SERVER [LETHE](https://lethelc.site) AS IT WILL BE ABLE TO BYPASS THE DETECTION. HOWEVER, IF YOU ARE ALREADY BANNED IN THE FIRST PLACE, OR IF YOU DON'T CARE ABOUT GETTING BANNED, ENJOY FURINALC!
+
+-- --
+
 # FurinaLC
 
 **FurinaLC** is a server reimplementation for *Limbus Company*, named after the second-best girl from *Genshin Impact*. 
@@ -59,7 +66,7 @@ This proxy will redirect API requests to your local server. Follow these steps t
 
 - If you're unable to browse the internet after using and closing this proxy, it might be due to Guardian failing to revert the proxy settings.
   
-- If that happens, simply disable the proxy settings manually (Open windows search, then type "Proxy", the settings menu option should show up). Alternatively, run the proxy app again and close it by clicking the big red X.
+- If that happens, simply disable the proxy settings manually (Open windows search, then type "Proxy", the settings menu option should show up).
 
 ### 3. **Setting Up FurinaLC**
 
